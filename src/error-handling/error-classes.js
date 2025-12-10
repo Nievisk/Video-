@@ -1,6 +1,6 @@
 export class ErrorHandler extends Error {
     constructor(message, status) {
-        super({ message })
+        super(message)
         this.status = status
     }
 }
